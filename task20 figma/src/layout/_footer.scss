@@ -1,0 +1,38 @@
+#foot_field{
+   margin-top: 90px;
+.foot_con{
+    margin-bottom: 30px;
+    max-width: 1300px !important;
+}
+.column_direct ul{
+flex-direction: column;
+flex-wrap: wrap;
+    @include _main($height:140px, $display:flex, $margin:0, $padding:0);
+    a{
+        text-decoration: none;
+        line-height: 30px;
+        @include _main($color:$fourth_color);
+    }
+}
+.icon{
+    gap: 50px;
+    @include _main($display:flex);
+    img{
+        @include _main($object_f:contain , $cursor:pointer);
+    }
+}
+.second_icon{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    .img{
+    position: relative;
+    img{
+       @include _main($object_f:contain , $cursor:pointer); 
+    }
+.vector{
+    @include _main($position:absolute, $top:45px, $left:65px); 
+}
+    }
+}
+}

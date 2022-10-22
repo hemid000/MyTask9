@@ -1,0 +1,171 @@
+#first-body_items{
+        position: relative;
+background-size: cover;
+  background-repeat:no-repeat;
+  .alla3{
+    overflow: hidden;
+  }
+h2{
+    font-weight: 600;
+    word-spacing: 7px;
+    @include _main($color:rgb(255, 255, 255),$f_size:42px, $margin:18px 0 0 0);
+}
+.container{
+    overflow: hidden;
+}
+span{
+    color: white;
+font-weight: 300;
+}
+.img{ 
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    @include _main( $display:flex , $top:13px, $left:0px, $position:relative, $height:71%, $width:82%);
+
+    img{
+        @include _main( $height:100% , $object_f:contain);
+    }
+    &::before{
+        content: "";
+        transform: matrix(5, -1.9, 0, 1, 62, -41);
+        @include _main( $top:95px, $left:20px, $position:absolute, $height:126px, $width:54px, $back-color:#29436F);
+    }
+    &::after{
+        content: "";
+        transform: matrix(5, 2.3, 0, 1, 127, -52);
+        @include _main( $top:101px, $left:217px, $position:absolute, $height:126px, $width:42px, $back-color:#29436F);
+    }
+}
+.cards{
+    margin-top: 5px;
+display: flex;
+gap: 5px;
+.card1{
+    cursor: pointer;
+    @include _main( $padding:4px, $width:108px, $back-color:rgb(243, 243, 243));
+    .bi{
+        
+        margin: 4px 10px;
+    }
+    h6{
+       margin: 2px;
+    }
+   span{
+    margin: 3px;
+    color: grey;
+    font-size: 12px;
+   }
+}
+}
+.search{
+    align-items: center;
+    justify-content: flex-end;
+    @include _main( $display:flex, $margin:10px 0 0 0 , $width:330px, $height:30px, $back-color:rgb(243, 243, 243));
+    .bi{
+        cursor: pointer;
+        margin-right: 10px;
+    }
+}
+}
+#second-body_items{
+    .h2{
+        margin-bottom: 20px;
+    }
+    .center_1{
+    max-width: 1300px !important;
+        margin: 0 auto;
+    }
+    .card_body{
+        overflow: hidden;
+        @include _main( $display:flex, $border-radius:6px , $width:420px, $border:1px solid transparent, $back-color:#6160DC);
+.right_side{ 
+    margin-left: 15px;
+    flex-direction: column;
+    display: flex;
+    gap: 53px;
+h3{
+    color: white;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+   @include _main( $border:1px solid white , $back-color:#ffffff , $color:#6160DC , $padding:10px 20px, $border-radius:25px);
+}
+}
+.left_side{
+        img{ 
+            @include _main($width:236px, $height:197px , $object_f:cover);
+        }
+}
+ }
+}
+#third-body_items{
+margin-top: 90px;
+.long_card{
+    @include _main($width:100%, $back-color:#F4F4F4, $display:flex, $border-radius:20px);
+align-items: center;
+&:nth-child(1){
+.long_card_item{
+   cursor: pointer;
+    @include _main($padding:10px 17px 10px 10px, $position:relative);
+&::after{
+content: "";
+@include _main($width:1px, $height:21px, $position:absolute, $top:13px, $left:121px, $back-color:#8E8EA1);
+}
+}
+}
+}
+.long_card{
+    @include _main($width:100%, $back-color:#F4F4F4, $display:flex);
+align-items: center;
+justify-content: space-between;
+margin-bottom: 30px;
+.longlong_card{
+    cursor: pointer;
+    align-items: center;
+    @include _main($display:flex);
+.long_card_item{
+    @include _main($padding:10px 17px 10px 10px, $position:relative);
+&::after{
+content: "";
+@include _main($width:1px, $height:21px, $position:absolute, $top:13px, $left:121px, $back-color:#8E8EA1);
+}
+}
+.long_card_item2{
+    @include _main($padding:10px 17px 10px 10px, $position:relative);
+    .bi{
+        margin-left: 5px;
+    }
+}
+}
+.longlong_card_right{
+    margin-right: 15px;
+}
+}
+}
+#third-body_items{
+margin-top: 90px;
+.third_container{
+    max-width: 1300px !important;
+.card_third_body{
+    overflow: hidden;
+    @include _main($width:310px, $back-color:#F4F4F4, $border:1px solid transparent, $border-radius:6px);
+.upside{
+    h3{
+        color: #6160DC;
+        font-size: 18px;
+        padding: 20px;
+    }
+}
+.downside{
+    cursor: pointer;
+    img{
+       @include _main($width:308px, $height:180px, $object_f:cover) ;
+    }
+}
+}
+}
+}
